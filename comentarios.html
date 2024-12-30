@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Comentários</title>
+    <link rel="stylesheet" href="comentarios.css">
+</head>
+<body>
+    <header>
+        <h1>Comentários</h1>
+    </header>
+    <main>
+        <section class="comment-section">
+            <h2>Deixe seu comentário</h2>
+            <form id="commentForm">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="comment">Comentário:</label>
+                <textarea id="comment" name="comment" rows="4" required></textarea>
+
+                <button type="submit">Enviar Comentário</button>
+            </form>
+        </section>
+        <section class="comments-list">
+            <h2>Comentários</h2>
+            <ul id="comments"></ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Leandro Nascimento. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="comentarios.js"></script>
+</body>
+</html>
