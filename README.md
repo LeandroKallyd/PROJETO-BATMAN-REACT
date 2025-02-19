@@ -19,7 +19,7 @@ Passos para Configuração
 Clone o repositório:
 
 bash
-git clone https://github.com/LeandroKallyd/ProjetoBatman.git  
+git clone https://github.com/LeandroKallyd/PROJETO-BATMAN-REACT
 Acesse a pasta do projeto:
 
 bash
