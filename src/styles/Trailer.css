@@ -1,0 +1,47 @@
+#trailer-container {
+  padding: 40px;
+  background-color: black;
+}
+
+.content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+
+#trailer {
+  width: 60%;
+  height: auto;
+}
+
+#synopsis {
+  width: 40%;
+  color: white;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+
+.description {
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.button {
+  background-color: #f0131e;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.button:hover {
+  background-color: #c0111b;
+}

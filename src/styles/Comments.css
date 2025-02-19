@@ -1,0 +1,81 @@
+main {
+  padding: 40px;
+  background-color: black;
+}
+
+header h1 {
+  color: white;
+  text-align: center;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+  margin-bottom: 40px;
+}
+
+.comment-section {
+  max-width: 800px;
+  margin: 0 auto 40px;
+  padding: 20px;
+  background-color: #1a1a1a;
+  border-radius: 8px;
+}
+
+.comment-section h2 {
+  color: white;
+  margin-bottom: 20px;
+}
+
+.comment-section label {
+  display: block;
+  color: white;
+  margin-bottom: 5px;
+}
+
+.comment-section input,
+.comment-section textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #333;
+  border-radius: 4px;
+  background-color: #262626;
+  color: white;
+}
+
+.comment-section button {
+  background-color: #f0131e;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.comment-section button:hover {
+  background-color: #c0111b;
+}
+
+.comments-list {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.comments-list h2 {
+  color: white;
+  margin-bottom: 20px;
+}
+
+.comments-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.comments-list li {
+  background-color: #1a1a1a;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  color: white;
+}
+
+.comments-list strong {
+  color: #f0131e;
+}

@@ -1,0 +1,45 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  height: 80px;
+  pointer-events: none;
+}
+
+
+
+#logo {
+  height: 100px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+  padding: 10px;
+  display: block;
+  position: relative;
+  z-index: 1001;
+  pointer-events: auto;
+}
+
+
+
+nav a:hover {
+  color: #f0131e;
+}

@@ -1,0 +1,50 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px 40px;
+  
+  color: white;
+  gap: 20px;
+
+
+}
+
+
+footer img {
+  height: 100px;
+  margin-bottom: 50px;
+  transition: transform 0.3s ease;
+}
+
+footer img:hover {
+  transform: scale(1.1);
+}
+
+
+.footer-navigation {
+  margin-top: 20px;
+}
+
+.footer-list {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-list a {
+  color: white;
+  text-decoration: none;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.footer-list a:hover {
+  color: #f0131e;
+  background-color: rgba(240, 19, 30, 0.1);
+  transform: translateY(-2px);
+}
